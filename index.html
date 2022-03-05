@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Document</title>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        background-color: #F7F8F8;
+    }
+    .toplogo{
+        display: flex;
+        align-items: center;
+        /* border: 2px solid red; */
+       padding-right: 65rem;
+         margin-left: 3rem;
+           margin-top: 1rem;
+}
+.inputfield {
+display: flex;
+
+margin-left: 3rem;
+width: 95%;
+
+}
+ul{
+    text-decoration: none;
+display: flex;
+justify-content: space-between;
+margin-right: 40rem;
+width: 70%;
+}
+li{
+    list-style: none;
+
+}
+.content1{
+    margin-top: 1rem;
+/* margin-right: 4rem; */
+    width: 100%;
+    background-color: #fff !important;
+
+}
+
+.cards1{
+display: flex;
+flex-wrap: wrap;
+}
+.container{
+    justify-content: space-between;
+height: 4%;
+width: 100%;
+}
+.container img{
+    width: 100%;
+    margin-right: 1rem;
+}
+footer{
+    background-color: #EBEEEF;
+}
+@media screen and (max-width: 115px) {
+.toplogo{
+display: none;
+}
+}
+
+
+
+</style>
+
+</head>
+<body>
+    <header>
+        <div class="toplogo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/OLX_New_Logo.png" width="15%" alt="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="auto" height="24" viewBox="0 0 66 20" alt="OLX Motors" class="_1a6eed8f"><path d="M4.9 10a1.33 1.33 0 1 0 0 2.66 1.33 1.33 0 0 0 0-2.67zm0 1.8a.48.48 0 1 1 0-.95.48.48 0 0 1 0 .96zM15.65 10a1.33 1.33 0 1 0 0 2.66 1.33 1.33 0 0 0 0-2.67zm0 1.8a.48.48 0 1 1 0-.95.48.48 0 0 1 0 .96zm-2.03.22H7v.85h6.63v-.85zM24 13.48h1.14V8.72l2.13 4.76h.79l2.12-4.76v4.76h1.14V6.53H30.1l-2.43 5.45-2.44-5.45H24v6.95zM39.54 10a3.46 3.46 0 0 0-3.55-3.55A3.48 3.48 0 0 0 32.44 10a3.48 3.48 0 0 0 3.55 3.56A3.47 3.47 0 0 0 39.54 10zm-5.93 0c0-1.57 1-2.55 2.38-2.55s2.38.98 2.38 2.55c0 1.57-1 2.57-2.38 2.57s-2.38-1-2.38-2.57zm6.69-2.53h1.86v6.02h1.14V7.46h1.85v-.93H40.3v.93zM53.02 10a3.46 3.46 0 0 0-3.55-3.55A3.48 3.48 0 0 0 45.94 10a3.48 3.48 0 0 0 3.55 3.56A3.47 3.47 0 0 0 53.02 10zm-5.93 0c0-1.57 1-2.55 2.38-2.55s2.39.98 2.39 2.55c0 1.57-1 2.57-2.38 2.57s-2.38-1-2.38-2.57zm10.75-1.38c0 .7-.4 1.18-1.3 1.18H55.3V7.46h1.26c.89 0 1.29.45 1.29 1.15zm-3.7-2.08v6.95h1.15V10.7h.87l1.6 2.79h1.36L57.4 10.6A1.98 1.98 0 0 0 59 8.63c0-1.13-.8-2.08-2.45-2.08h-2.4zm11.02 4.98c0-2.54-3.68-1.56-3.68-3.13 0-.67.5-.99 1.17-.97.72.02 1.13.45 1.17.92h1.26c-.1-1.19-1.04-1.89-2.37-1.89-1.42 0-2.4.76-2.4 1.98 0 2.56 3.7 1.47 3.7 3.15 0 .6-.45 1.02-1.25 1.02s-1.2-.46-1.24-1.03H60.3c0 1.23 1.07 2 2.46 2 1.55 0 2.4-1 2.4-2.05z"></path><path d="M19.09 7.26a1.23 1.23 0 0 0-1.54-.8l-.68.21L15.7 4.2l-.37-.12a17.75 17.75 0 0 0-5.3-.74 13.32 13.32 0 0 0-4.84.76l-.33.13-1.12 2.6-.48-.16a1.23 1.23 0 1 0-.74 2.34l.1.03-.08.14a4.5 4.5 0 0 0-.45 1.67c-.01.27 0 .82.02 1.35l.01 2.96v.03c-.02.26.01.53.08.8a.82.82 0 0 0 .83.54h1.75a.82.82 0 0 0 .82-.55c.07-.26.1-.53.09-.8v-.32c2.04.18 3.35.27 4.64.27 1.29 0 2.55-.09 4.5-.26v.32c-.02.26.01.53.09.8a.82.82 0 0 0 .82.54h1.75a.81.81 0 0 0 .82-.55c.08-.26.1-.53.09-.8V12.24c.05-.54.09-1.1.08-1.42A4.14 4.14 0 0 0 18 9.07l-.08-.16.35-.1a1.23 1.23 0 0 0 .8-1.55zM5.5 4.89h.02a12.48 12.48 0 0 1 4.5-.7c1.7-.02 3.4.21 5.03.7h.03l.96 2.03a19.57 19.57 0 0 1-4.74.46h-.79a31.31 31.31 0 0 1-5.94-.33l.93-2.16zm-.67 10.3a2.41 2.41 0 0 1-.03.48H3a2.4 2.4 0 0 1-.03-.49v-.64c.12.06.25.1.38.1l1.48.14v.4zm12.72-.04v.04a2.39 2.39 0 0 1-.03.48h-1.8a2.41 2.41 0 0 1-.03-.49v-.4l1.39-.12c.17-.02.33-.07.47-.15v.64zM18.03 8l-1.3.41.52 1.06c.22.43.35.9.38 1.37 0 .27-.03.78-.06 1.25h-.01v.15l-.05.78c-.01.32-.21.78-.51.8-3.32.32-4.99.47-6.67.47-1.7 0-3.43-.16-6.9-.47-.21-.02-.35-.36-.4-.66a11.35 11.35 0 0 1-.07-.97v-.1a18.51 18.51 0 0 1-.02-1.2 3.6 3.6 0 0 1 .36-1.3l.57-1.03-1.09-.34a.37.37 0 0 1 .23-.72l1.21.39.01-.03c1.82.32 3.66.45 5.5.39h1.57a19.82 19.82 0 0 0 5.12-.52l1.4-.44a.38.38 0 0 1 .46.24.37.37 0 0 1-.25.47z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="auto" height="24" viewBox="0 0 73 20" alt="OLX Property" class="_1a6eed8f"><path d="M17.42 17.72H2.5V16.7h.4V2.5h8.47v14.21h5.04v-8.7l-4.03-1.35V5.6l5.04 1.68v9.43h.4v1h-.4zM3.92 16.7h6.44V3.51H3.91v13.2zm10.31-2.94v-.81h.82v.81h-.82zm-1.63 0v-.81h.82v.81h-.82zm-4.88 0v-.81h1.63v.81H7.72zm-2.45 0v-.81H6.9v.81H5.27zm8.96-2.44v-.81h.82v.81h-.82zm-1.63 0v-.81h.82v.81h-.82zm-4.88 0v-.81h1.63v.81H7.72zm-2.45 0v-.81H6.9v.81H5.27zm8.96-1.63V8.9h.82v.81h-.82zm-1.63 0V8.9h.82v.81h-.82zm-4.88 0V8.9h1.63v.81H7.72zm-2.45 0V8.9H6.9v.81H5.27zm2.45-2.44v-.82h1.63v.82H7.7zm-2.45 0v-.82H6.9v.82H5.27zm2.45-1.63v-.81h1.63v.8H7.7zm-2.45 0v-.81H6.9v.8H5.27zm19.87 4.1V7.46h1.26c.89 0 1.29.42 1.29 1.14 0 .7-.4 1.14-1.29 1.14h-1.26zm3.72-1.13c0-1.12-.81-2.06-2.46-2.06H24v6.95h1.14v-2.83h1.26c1.81 0 2.46-1.07 2.46-2.06zm4.78.02c0 .69-.4 1.18-1.3 1.18H31.1V7.46h1.26c.89 0 1.29.45 1.29 1.15zm-3.7-2.08v6.95h1.15V10.7h.87l1.6 2.79h1.36L33.2 10.6a1.98 1.98 0 0 0 1.6-1.98c0-1.13-.8-2.08-2.45-2.08h-2.4zM43 10a3.46 3.46 0 0 0-3.55-3.55A3.48 3.48 0 0 0 35.89 10a3.48 3.48 0 0 0 3.55 3.56A3.47 3.47 0 0 0 42.99 10zm-5.93 0c0-1.57 1-2.55 2.38-2.55s2.38.98 2.38 2.55c0 1.57-1 2.57-2.38 2.57s-2.38-1-2.38-2.57zm8.19-.26V7.47h1.26c.89 0 1.29.42 1.29 1.14 0 .7-.4 1.13-1.3 1.13h-1.25zm3.72-1.13c0-1.13-.81-2.07-2.46-2.07h-2.4v6.95h1.14v-2.83h1.26c1.8 0 2.46-1.07 2.46-2.06zm4.92-2.08h-3.84v6.96h3.84v-.94h-2.7v-2.13h2.4V9.5h-2.4V7.46h2.7v-.93zM59 8.6c0 .7-.4 1.19-1.3 1.19h-1.25V7.46h1.26c.89 0 1.29.45 1.29 1.15zm-3.7-2.07v6.95h1.15V10.7h.87l1.6 2.79h1.36l-1.72-2.89a1.98 1.98 0 0 0 1.6-1.98c0-1.13-.8-2.08-2.45-2.08h-2.4zm5.97.93h1.86v6.01h1.14V7.46h1.85v-.93h-4.85v.93zm7.71 3.5v2.51h1.14v-2.52l2.3-4.43h-1.26l-1.6 3.42-1.62-3.41h-1.27l2.31 4.42z"></path></svg>
+        </div>
+        <div class="inputfield ">
+                    <input class="secondfield" placeholder="Pakistan"  type="text" style=" width: 20%; background-color: tra; border: 2px solid black; height: 3rem; margin-top: 1rem;">
+ &nbsp;&nbsp;&nbsp;
+                    <input type="text" placeholder="find cars,Mobile phones and more" style="width: 58%; border: 2px solid black; height: 3rem; margin-top: 1rem;">                         
+                <p style="text-decoration: underline; color: black;font-weight: bold; margin-top: 1.1rem; font-size: 1.2rem; margin-left: 1rem;">Login</p>
+                &nbsp;&nbsp;&nbsp;
+                <img width="10%" height="1%" style="margin-top: 0.1rem;" src="./sell.PNG" alt="">
+            </div>      
+            <div class="content1">
+                <ul>
+                    <li style="font-weight: bold;">ALL CATEGORIES</li>
+                    <li>Mobile phones</li>
+                    <li>cars</li>
+                    <li>Motorcycles</li>
+                    <li>Housea</li>
+                    <li>TV-Video-Audio</li>
+                    <li>Tablets</li>
+                    <li>Land & plots</li>
+                </ul>
+                </div>
+        </header>
+
+        <div class="container1">
+<div class="firsthero">
+ <img  src="https://www.olx.com.pk/assets/wallpaper.6416002a042322099dbfec286d7574f4.jpg" width="100%" alt="">
+</div>            
+               <br>
+<div style="margin-left: 18rem;" class="firsthero">
+<img src="https://tpc.googlesyndication.com/simgad/4357772581101338447" alt="">
+</div>            
+</div> 
+<br>  
+<div class="container2">
+<h4  style="margin-left: 3rem;">Fresh recommendations</h4>
+<div class="cards1 col-lg-12 ">
+    <div class="card-group">
+        <div class="card  " >
+          <img src="pic1.PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Kemi hair Trimmer</h5>
+            <p class="card-text">RS 500</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="pic2.PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Dell laptop sale</h5>
+            <p class="card-text">Rs 20,000</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="pic3.PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">O Levels,A Levels,Home Tutor,Academy,Online Tuition</h5>
+            <p class="card-text"></p>
+          </div>
+             
+        </div>
+        <div class="card">
+            <img  src="pic4.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">5 station gym(Fitness depot)</h5>
+              <p class="card-text">Rs 320,000</p>
+            </div>  
+    </div>
+</div>
+
+
+
+  </div>                
+    <!--  -->
+    <div class="cards1 col-lg-12 ">
+        <div class="card-group">
+            <div class="card  " >
+              <img src="pic5.PNG" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">RABAB RUBAB RABAB's</h5>
+                <p class="card-text">RS 11500</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="pic6.PNG" class="card-img-top" alt="...">
+              <div class="card-body">
+                <!-- <h5 class="card-title">Dell laptop sale</h5>
+                <p class="card-text">Rs 20,000</p> -->
+              </div>
+            </div>
+            <div class="card">
+              <img src="pic7.PNG" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">DRAIN K-1000 RODDER MACHINE</h5>
+                <p class="card-text"></p>
+              </div>
+                 
+            </div>
+            <div class="card">
+                <img  src="pic8.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">porta cabin office container with attach washroom prefab cabin</h5>
+                  <p class="card-text">Rs 320,000</p>
+                </div>  
+        </div>
+    </div>
+    
+    
+    
+      </div> 
+&nbsp;&nbsp;
+      <!--  -->
+<!--  -->
+<div class="cards1 col-lg-12 ">
+    <div class="card-group">
+        <div class="card  " >
+          <img src="pic9.PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mobile App Development App Development And Roid IOS Hybrid Native</h5>
+            <p class="card-text">RS 500</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="pic10.PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Quality 100% (Orignal Branded ) Gurranted) violin , Guitars</h5>
+            <p class="card-text">Rs 20,000</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="pic11.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">japani black tail</h5>
+            <p class="card-text"></p>
+          </div>
+             
+        </div>
+        <div class="card">
+            <img  src="pic12.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">honda cg125 red clr fit bike ALL punjab ka no he</h5>
+              <p class="card-text">Rs 320,000</p>
+            </div>  
+    </div>
+</div>
+
+
+
+  </div> 
+<!-- / -->
+
+<!--  -->
+&nbsp;&nbsp;
+<div class="cards1 col-lg-12 ">
+    <div class="card-group">
+        <div class="card  " >
+          <img src="pic13.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Security Guard Job Commandos Experienced &amp; Highly Trained</h5>
+            <p class="card-text">RS 500</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="pic14.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gps Car tracking system . 3 years warranty.  4G Tracker</h5>
+            <p class="card-text">Rs 20,000</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="pic15.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Female ha</h5>
+            <p class="card-text"></p>
+          </div>
+             
+        </div>
+        <div class="card">
+            <img  src="pic16.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Iphone 7 for sale. Limited Edition. Red color.</h5>
+              <p class="card-text">Rs 320,000</p>
+            </div>  
+    </div>
+</div>
+
+
+</div> 
+
+<!--  -->
+<!--  -->
+&nbsp;&nbsp;
+<div class="cards1 col-lg-12 ">
+    <div class="card-group">
+        <div class="card  " >
+          <img src="pic17.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">core 2 duo</h5>
+            <p class="card-text">RS 600</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="pic18.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Leather Wallets | available in different ranges</h5>
+            <p class="card-text">Rs 1100</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="pic19.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">infinix smart 3 plus full lush condition</h5>
+            <p class="card-text">Rs 12,000</p>
+          </div>
+             
+        </div>
+        <div class="card">
+            <img  src="pic20.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Iphone</h5>
+              <p class="card-text">Rs 45,000</p>
+            </div>  
+    </div>
+    
+</div>
+<div class="card">
+    <img  src="21.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">oneplus 8</h5>
+      <p class="card-text">Rs 55,000</p>
+    </div>  
+</div>
+<br>
+
+  </div>    
+<p style="background-color: transparent; border: 2px solid  black; width: 7%;height: 4%; font-weight: bold; margin-left: 40rem;padding: 5px;">Load more</p>
+  <!--  --> <br><br>
+</div>
+  
+<div class="container " style="display: flex;justify-content: space-evenly;">
+<div>
+    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSOcHgn_LgYY-Wx93zuk6n1knQ0OKf30QeijhmHdkRHK9_A2XhDSiepExDt-Q&usqp=CAI" alt="">
+</div>
+
+<div>
+    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT5vOxJYv6iW9XGtoKAGaugX7c7Vk-yjBTAty8Hxo9r4Im-yMY4qAFdiR5b1w&usqp=CAI" alt="">
+</div>
+
+<div>
+
+    <img  src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRywRmXkBkCk8U0ZRK1ci9VWvW6IfqxUoZ09iPBy8FaydvroFImlJeGADnF4Q&usqp=CAI" alt="">
+</div>
+
+
+<div>
+<img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSRmrN7MRYernwQDsc-3l5LlFYERCmhHnC-DduqwCOGwYLnoX0a0klPwuwDqw&usqp=CAI" alt="">
+</div>
+
+<div>
+    <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRAtLB8KaOIqFSM6Kyb2cfKhJ1BVbp3vjWJLFr364oeEskBx9x2KIH1k_IGzDI&usqp=CAI" alt="">
+    </div>
+
+</div>
+<div class="container3 col-lg-12">
+<img src="./cover.png" alt="">
+
+</div>
+
+<footer class="bd-footer py-5 mt-5 bg-light">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-3 mb-3">
+          <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg> -->
+            <span class="fs-5 text-dark">popular categories</span>
+          </a>
+          <ul class="list-unstyled small text-muted">
+            <li class="mb-2">cars <br> flats for rent <br>mobile phone <br> Job</li>
+            <!-- <li class="mb-2">flats for rent</li> -->
+            <!-- <li class="mb-2">mobile phone</li> -->
+            <!-- <li class="mb-2">Job</li> -->
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+          <h5>TRENDING SEARCHES        </h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">bikes <br> Watches <br> Books <br> Dogs</li> <br>
+        </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>About us</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">Help <br> site map <br> terms of use <br> privacy police</li>
+            <!-- <li class="mb-2"><a href="/docs/5.1/examples/starter-template/">Starter template</a></li> -->
+            <!-- <li class="mb-2"><a href="/docs/5.1/getting-started/webpack/">Webpack</a></li> -->
+            <!-- <li class="mb-2"><a href="/docs/5.1/getting-started/parcel/">Parcel</a></li> -->
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+            <li class="mb-2">olx <br> site map <br> terms of use <br> privacy police</li>
+     
+        </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+        </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+        </body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</html>
